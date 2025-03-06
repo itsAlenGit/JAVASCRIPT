@@ -33,8 +33,17 @@ const obj3 = {...obj1,...obj2}
 const user =[{id:1,email:"krishna43"},{id:2,email:"krishna43"},{id:3,email:"krishna43"}];
 
 //console.log(user[2]);
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    course:"Java",
+    price:999,
+    courseInstructor:"Hitesh"
+};
+
+const {courseInstructor,price} = course;
+console.log(price);
